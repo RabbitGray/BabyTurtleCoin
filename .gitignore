@@ -5,12 +5,14 @@
 .idea
 .ycm_extra_conf.py
 .ycm_extra_conf.pyc
+.vs/
 build/src/Release
 build/src/Debug
 src/CMakeCache.txt
 src/CMakeFiles/
 src/Makefile
 src/build/
+out/
 src/cmake_install.cmake
 *.swp
 .vscode
