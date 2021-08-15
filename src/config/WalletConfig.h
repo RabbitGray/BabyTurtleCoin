@@ -10,10 +10,10 @@
 namespace WalletConfig
 {
     /* The prefix your coins address starts with */
-    const std::string_view addressPrefix = "bbTR";
+    const std::string_view addressPrefix = "bTL";
 
     /* Your coins 'Ticker', e.g. Monero = XMR, Bitcoin = BTC */
-    const std::string ticker = "bbTR";
+    const std::string ticker = "bTL";
 
     /* The filename to output the CSV to in save_csv */
     const std::string csvFilename = "transactions.csv";
@@ -30,7 +30,7 @@ namespace WalletConfig
 
     /* The name of service/walletd, the programmatic rpc interface to a
        wallet */
-    const std::string walletdName = "turtle-service";
+    const std::string walletdName = "babyturtle-service";
 
     /* The full name of your crypto */
     const std::string coinName = std::string(CryptoNote::CRYPTONOTE_NAME);
@@ -42,7 +42,7 @@ namespace WalletConfig
     const uint8_t numDecimalPlaces = CryptoNote::parameters::CRYPTONOTE_DISPLAY_DECIMAL_POINT;
 
     /* The length of a standard address for your coin */
-    const uint16_t standardAddressLength = 99;
+    const uint16_t standardAddressLength = 98;
 
     /* The length of an integrated address for your coin - It's the same as
        a normal address, but there is a paymentID included in there - since
